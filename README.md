@@ -104,9 +104,11 @@ This repository contains the following files and folders
 ## 6. Results Obtained
 ### i. Generated Images
 Samples generated after training model for 100 epochs on MNIST.
+
 ![mnist_generated](resources/generated_image_mnist.png)
 
 Samples generated after training model for 200 epochs on CIFAR-10.
+
 ![cifar_generated](resources/generated_image_cifar.png)
 
 ### ii. Parameters Used

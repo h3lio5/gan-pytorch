@@ -13,7 +13,7 @@ import argparse
 
 cuda = True if torch.cuda.is_available() else False
 device = 'cuda' if cuda else 'cpu'
-k = 4
+k = 1
 parser = argparse.ArgumentParser()
 parser.add_argument('--batch_size', default=128,type=int,help='Enter the batch size')
 parser.add_argument('--total_epochs',default=100,type=int,help='Enter the total number of epochs')
